@@ -7,7 +7,7 @@ function SolarSystem() {
   const isDesktop = useMediaQuery({ minWidth: 1200 });
   
   return (
-    <>{ isDesktop ?<div>
+    <>{ isDesktop ?<div className="scroll-container relative top-2 ">
         <div className="neptuneParent h-[95vh] w-[48vw] flex justify-center items-center border-r-2 rounded-full bg-black">
           <div className="uranusParent h-[80%] w-[80%] flex justify-center items-center border-t-2 rounded-full bg-black">
             <div className="saturnParent h-[80%] w-[80%] flex justify-center items-center border-r-2 rounded-full bg-black">
@@ -27,7 +27,9 @@ function SolarSystem() {
           </div>
         </div>
       </div>
-      : <div>The solar system can be viewed on desktop or laptops  </div>
+      :<div className="flex-col justify-center items-center"> <div className="text-white flex justify-center items-center p-4 text-3xl">"The solar system can only be viewed on desktops or laptops." </div>
+      <span className="text-red-900 flex justify-center items-center text-3xl">(min-width:1220px)</span>
+      </div>
     }
     </>
 

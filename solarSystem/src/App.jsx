@@ -1,9 +1,13 @@
 import React from "react";
+import { useMediaQuery } from "react-responsive";
 import "./App.css";
 
 function SolarSystem() {
+
+  const isDesktop = useMediaQuery({ minWidth: 1200 });
+  
   return (
-    <>
+    <>{ isDesktop ?<div>
         <div className="neptuneParent h-[95vh] w-[48vw] flex justify-center items-center border-r-2 rounded-full bg-black">
           <div className="uranusParent h-[80%] w-[80%] flex justify-center items-center border-t-2 rounded-full bg-black">
             <div className="saturnParent h-[80%] w-[80%] flex justify-center items-center border-r-2 rounded-full bg-black">
@@ -22,6 +26,9 @@ function SolarSystem() {
             </div>
           </div>
         </div>
+      </div>
+      : <div>The solar system can be viewed on desktop or laptops  </div>
+    }
     </>
 
   );

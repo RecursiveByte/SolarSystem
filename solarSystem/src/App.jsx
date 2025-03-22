@@ -28,7 +28,7 @@ function SolarSystem() {
         </div>
       </div>
       :<div className="flex-col justify-center items-center"> <div className="text-white flex justify-center items-center p-4 text-3xl">"The solar system can only be viewed on desktops or laptops." </div>
-      <span className="text-red-900 flex justify-center items-center text-3xl">(min-width:1220px)</span>
+      <span className="text-blue-900 flex justify-center items-center text-3xl">(min-width:1220px)</span>
       </div>
     }
     </>

@@ -1,1 +1,35 @@
-kaslkfjk;alsff
+Result management System
+Software Requirements Specification                               
+
+Table of contexts
+.Introduction
+.Description
+.Requirements 
+.Feasibility
+
+Introduction 
+.A result management system which have three user students, instructor ,admin students can view their score ,instructor can edit ,update,read the grade points of a student and admin will generate
+the grades 
+
+Description
+.In this webpage first the user will see the homepage ,it will consists of option like student, instructor ,admin the user will select the from these 3 things
+
+.If the user is a student he will be navigated to the 
+student portal 
+
+.If the user is a instructor he will be navigated to the instructor portal
+If the user is a admin he will be navigated to the admin portal
+
+Requirements:
+.Student can view their grades 
+
+.Instructor can edit,update and delete the grade points
+
+.admin can generate the grade based on grade points
+
+Feasibility:
+.Financial feasibility:
+.It is financially feasible as it will be made by using open sources softwares.
+
+.Technical feasiblilty
+.The technologies that will be used for making this project can easily complete the requirements so it is technically feasable
